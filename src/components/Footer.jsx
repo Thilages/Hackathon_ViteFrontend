@@ -42,7 +42,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Stay Updated</h3>
             <p className="text-gray-400 mb-4">Subscribe to our newsletter for updates and event news.</p>
-            <form className="flex">
+{/*             <form className="flex">
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -54,7 +54,7 @@ const Footer = () => {
               >
                 Subscribe
               </button>
-            </form>
+            </form> */}
           </div>
 
         </div>
