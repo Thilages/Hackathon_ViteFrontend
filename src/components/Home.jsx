@@ -42,9 +42,9 @@ const Home = () => {
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#54ea54] opacity-10 blur-2xl rounded-full"></div>
 
         <Navbar />
-        <div className="flex-1 px-4 flex flex-col md:flex-row items-center lg:justify-between relative z-10">
+        <div className="flex-1 px-4 max-sm:py-10 flex flex-col md:flex-row items-center lg:justify-between relative z-10">
           {/* Hero Section */}
-          <div className="text-left md:w-1/2 max-w-2xl py-10 pl-0 sm:pl-10 max-sm:py-10 ">
+          <div className="text-left md:w-1/2 max-w-2xl py-10 pl-0 sm:pl-10  ">
             <h1 className="text-4xl-custom font-bold text-white md:text-6xl-custom ">
               Welcome to <span className="text-white">Hackathon Central</span>
             </h1>
