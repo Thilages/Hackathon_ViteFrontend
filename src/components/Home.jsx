@@ -44,7 +44,7 @@ const Home = () => {
         <Navbar />
         <div className="flex-1 px-4 flex flex-col md:flex-row items-center lg:justify-between relative z-10">
           {/* Hero Section */}
-          <div className="text-left md:w-1/2 max-w-2xl py-10 pl-0 sm:pl-10 ">
+          <div className="text-left md:w-1/2 max-w-2xl py-10 pl-0 sm:pl-10 sm:pt-8 ">
             <h1 className="text-4xl-custom font-bold text-white md:text-6xl-custom">
               Welcome to <span className="text-white">Hackathon Central</span>
             </h1>
